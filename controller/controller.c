@@ -14,7 +14,6 @@ void mecanum_Drive(int threshold, int speed);
 void tank_Drive(int threshold, int speed);
 int speed();
 void driveMode(int choice, int threshold);
-//void waitForRelease();
 int Choice();
 void claw(int pos1, int pos2);
 void ClawArm(int threshold);
@@ -143,12 +142,6 @@ int Choice()
 		return d ;
 
 }
-
-//void waitForRelease()
-//{
-//	while(vexRT[Btn8D] != 0){}
-//	wait1Msec(5);
-//}
 
 void claw(int pos1, int pos2)
 {
